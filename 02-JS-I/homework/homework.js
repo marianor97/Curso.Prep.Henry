@@ -81,7 +81,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(length.str1===length.str2){
+  if(str1.length===str2.length){
     return true;
   }
   else {
@@ -159,7 +159,7 @@ function esImpar(num) {
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
-  // Tu código:}
+  // Tu código:
   return Math.pow(num,2);
   
 }
@@ -205,11 +205,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero>0){
-    return console.log("Es positivo");
+    return "Es positivo";
 
   }
   else if (numero < 0){
-    return console.log("Es negativo");
+    return "Es negativo";
   }
   else {
 
@@ -280,13 +280,14 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra===a || letra === e || letra === i || letra === o || letra === u ) {
-    console.log("Es vocal")
+    return "Es vocal"
   }
-  if (length.letra!=1) {
-    console.log("Dato incorrecto")
-  } else {
+  else if (length.letra!=1) {
+    return "Dato incorrecto"
+  } 
+  else {
 
-    console.log("Dato incorrecto")
+    return"Dato incorrecto"
     
   }
 }
