@@ -81,7 +81,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(length(str1)===length(str2)){
+  if(length.str1===length.str2){
     return true;
   }
   else {
@@ -160,14 +160,14 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:}
-  return num^2;
+  return Math.pow(num,2);
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  num^3
+  return Math.pow(num,3)
 
   
 }
@@ -175,7 +175,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return num^{exponent}
+  return Math.pow(num,exponent)
   
 }
 
@@ -189,7 +189,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.floor(num);
+  return Math.ceil(num);
   
 }
 
@@ -229,7 +229,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + apellido;
+  return nombre +" "+ apellido;
 
   
 }
@@ -238,7 +238,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + nombre;
+  return "Hola" + nombre+"!";
 
   
 }
