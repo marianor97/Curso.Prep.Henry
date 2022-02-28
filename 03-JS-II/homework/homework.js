@@ -79,13 +79,13 @@ function colors(color) {
   //Usar el statement Switch.
 
   switch (color) {
-    case 1 "blue":
+    case "blue":
       console.log("This is blue!");
       break;
-    case 2 "red":
+    case "red":
         console.log("This is red!");
         break;
-    case 3 "green":
+    case "green":
       console.log("orange");
       break;
 
