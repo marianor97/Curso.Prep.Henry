@@ -100,11 +100,11 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   switch (numero) {
-    case numero = 10 || numero = 5:
+    case numero === 10 || numero === 5:
       console.log("true");
       break;
     default:
-      console.log("False")
+      console.log("False");
 
   }
 }
